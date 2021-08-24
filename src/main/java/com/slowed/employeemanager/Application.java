@@ -21,7 +21,7 @@ public class Application {
   public CorsFilter corsFilter() {
     CorsConfiguration corsConfiguration = new CorsConfiguration();
     corsConfiguration.setAllowCredentials(true);
-    corsConfiguration.setAllowedOrigins(List.of("http://localhost:4200"));
+    corsConfiguration.setAllowedOrigins(List.of("employee-manager-45.herokuapp.com", "https://employee-manager-45.herokuapp.com/"));
     corsConfiguration.setAllowedHeaders(Arrays.asList("Origin", "Access-Control-Allow-Origin", "Content-Type",
         "Accept", "Authorization", "Origin, Accept", "X-Requested-With",
         "Access-Control-Request-Method", "Access-Control-Request-Headers"));
